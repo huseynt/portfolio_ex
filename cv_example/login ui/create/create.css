@@ -1,0 +1,203 @@
+body {
+    background: #ffddd3af;
+    background: url(../img/milad-fakurian-4000.jpg);
+    background-size: auto;
+    background-position: center;
+    transition: 5s;
+}
+.login {
+    width: 360px;
+    height: 595px;
+    background: white;
+    margin: 110px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 22px 6px #88888836;
+}
+
+/* -----------------------------container--------------------- */
+.container {
+    margin: 20px 20px;
+    width: 250px;
+    height: 300px;
+    padding: 0;
+
+}
+
+/* -----------------------------h1--------------------- */
+.h1 {
+    text-align: center;
+    font-weight: 660; 
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0 0 0;
+
+}
+
+/* -----------------------------info--------------------- */
+.info {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    padding: 0;
+    margin-top: 2px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+/* -----------------------------or--------------------- */
+.or {
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171); 
+    text-align: center;
+    margin: 25px 35px 20px; 
+    line-height: 0.1em;
+}
+.or span {
+    background: white;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* -----------------------------gender--------------------- */
+.gender {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3737374f;
+    width: 291px;
+    height: 37px;
+    border-radius: 10px;
+    padding: 0 0 0 11px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.027);
+    display: block;
+}
+
+
+/* -----------------------------form--------------------- */
+.form {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3737374f;
+    width: 278px;
+    border-radius: 10px;
+    padding: 0 0 0 11px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.027);
+}
+.form label {
+    border-right: 1px solid #0000005b;
+    padding: 3px 2px 3px 0;
+}
+#localcode {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    background: none;
+}
+#number1 {
+    padding: 4px;
+    width: 210px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 1px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* #number1:focus {
+    
+    background-color: rgba(87, 255, 177, 0.137);
+  } */
+
+
+/* -----------------------------form2--------------------- */
+.form2 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3737374f;
+    width: 278px;
+    border-radius: 10px;
+    padding: 0 0 0 11px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.027);
+}
+#number2 {
+    margin-left: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+}
+#number2 {
+    padding: 0;
+    width: 260px;
+    height: 42px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+}
+
+/* -----------------------------button--------------------- */
+
+.button {
+    margin-top: 20px;
+    padding-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff4901b9;
+    width: 280px;
+    height: 31px;
+    border-radius: 29px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 0 0 5px 3px #6161612f;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover {
+    transition: all 300ms ease-in-out;
+    box-shadow: 0 0 10px 3px #41414167;
+    background: #ff4901c5;
+}
+
+/* -----------------------------button2--------------------- */
+.button2 {
+    margin-top: 15px;
+    padding-top: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffffbb;
+    width: 250px;
+    height: 24px;
+    border: none;
+    color: #ff4d01a8;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-top: 1px solid #37373759;
+    text-align: center;
+    text-decoration: none;
+}
+.button2:hover {
+    transition: all 300ms ease-in-out;
+    color: #ce4105;
+}

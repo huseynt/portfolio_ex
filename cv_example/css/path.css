@@ -1,0 +1,23 @@
+/* ------------------Path------------------------------- */
+.path {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+    bottom:-45px;
+    left: 1px;
+    fill: #2eccf36c;
+    line-height: 100px;
+    animation: path_anim 10s ease infinite;
+  }
+  
+  path {
+    box-sizing: border-box;
+  }
+
+  @keyframes path_anim{
+    from{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    to{transform: scale(1);}
+    
+    }
